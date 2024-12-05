@@ -1,0 +1,30 @@
+/locate biome minecraft:plains
+/tp @s -111 111 555
+/kill
+/time set midnight
+/gamemode survival
+/kill @e[type=minecraft:creaking]
+/kill @e[type=!minecraft:player]
+/gamemode 0
+/gamemode spectator
+/gamemode survival
+/kill @e[type=!minecraft:player]
+/kill @e[type=minecraft:creaking]
+/effect give @p minecraft:resistance infinite 127 true
+/summon minecraft:creaking
+/time set midnight
+/effect give @p minecraft:resistance infinite 127 true
+/time set midnight
+/summon minecraft:creaking
+/locate biome minecraft:pale_garden
+/tp @s -3080 136 1593
+/time set midnight
+/kill @e[type=creaking]
+/locate biome minecraft:pale_garden
+/tp @s -3096 138 1570
+/time set midnight
+/tp @s -3096 138 1570
+/time set midnight
+/spreadplayers ~ ~ 100000 100000 true @a
+/locate biome minecraft:pale_garden
+/tp @s 92308 69 7319

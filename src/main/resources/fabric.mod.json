@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nocreakings",
+  "version": "${version}",
+  "name": "NoCreakings",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lol.nils.nocreakings.client.NocreakingsClient"
+    ],
+    "main": [
+      "lol.nils.nocreakings.Nocreakings"
+    ]
+  },
+  "mixins": [
+    "nocreakings.mixins.json",
+    {
+      "config": "nocreakings.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.21.4"
+  }
+}

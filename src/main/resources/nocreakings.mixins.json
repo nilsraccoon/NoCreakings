@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lol.nils.nocreakings.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinServerWorld"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
